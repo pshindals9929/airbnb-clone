@@ -1,0 +1,41 @@
+.card {
+  height: 60vh;
+  border: 1px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px -20px;
+  text-align: center;
+  width: 400px;
+  max-width: 80%;
+}
+
+.footer > h2 {
+  text-align: start;
+  margin-left: 20px;
+}
+.footer > h5 {
+  text-align: start;
+  margin-left: 20px;
+  color: grey;
+  font-weight: 500;
+  font-size: 1em;
+  min-width: 80%;
+}
+.card > img {
+  object-fit: contain;
+  height: 40vh;
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    height: 75vh;
+  }
+  .footer > h5 {
+    max-width: 40%;
+  }
+  .footer > h2 {
+    max-width: 40%;
+  }
+}

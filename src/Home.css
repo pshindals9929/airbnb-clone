@@ -1,0 +1,7 @@
+.card_Data {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  background: white;
+  justify-content: space-around;
+}
